@@ -1,0 +1,8 @@
+{
+  "name": "Remix ServerSpace",
+  "description": "A file management tool featuring a visual interface designed to look and function like a physical storage unit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

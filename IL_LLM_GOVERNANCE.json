@@ -1,0 +1,31 @@
+{
+  "$schema": "https://keddeh.com/schemas/il-llm-governance-v1.json",
+  "sovereign_identity": {
+    "node_name": "ServerSpace-By-KeddehSystems",
+    "domain_context": "SERVER_SPACE_SUBSTRATE",
+    "assigned_port": 19100,
+    "description": "Distributed Server Substrate & Metal Compute Allocation Engine",
+    "sentinel_seed_requirement": "00_KEX_SENTINEL_SEED"
+  },
+  "il_llm_governance": {
+    "file_management": {
+      "law_1_epistemic_integrity": "All file mutations must be backed by SHA-256 state hashes and recorded in the Merkle lineage ledger.",
+      "law_2_bounded_state": "Ephemeral telemetry logs must roll over with a hard cap of 100 entries to prevent memory exhaustion.",
+      "law_3_fail_closed": "Missing or corrupted configuration files trigger an immediate fail-closed state rather than default fallbacks."
+    },
+    "process_management": {
+      "law_1_zero_spawning": "No transactional endpoints may invoke child processes per request; all execution occurs in persistent daemons.",
+      "law_2_substrate_first_lifecycle": "Layer 1 Substrate/Memory -> Layer 2 Socket Handshake -> Layer 3 API Gateway -> Layer 4 Workstation UI.",
+      "law_3_persistent_stratum": "Stratum mining sockets must maintain permanent TCP streaming with SO_KEEPALIVE without synthetic placeholders."
+    }
+  },
+  "stack_manifest": {
+    "python_engine": ".venv/bin/python3",
+    "compiler": "kex_server_space_compiler.py",
+    "assembler": "kex_server_space_assembler.py",
+    "bootloader": "kex_server_space_bootloader.py",
+    "bootstrapper": "kex_server_space_bootstrapper.py",
+    "sidecar": "kex_server_space_sidecar.py",
+    "workstation": "kex_server_space_workstation.js"
+  }
+}

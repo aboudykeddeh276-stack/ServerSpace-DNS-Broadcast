@@ -1,0 +1,17 @@
+{
+  "node": "ServerSpace-By-KeddehSystems",
+  "blade_id": 0,
+  "worker": "keddeh.blade000",
+  "pool_host": "bitcoin.viabtc.io",
+  "pool_port": 3333,
+  "socket_status": "AUTHORIZED",
+  "difficulty": 16.0,
+  "extranonce1": "5a937af0",
+  "extranonce2": "00000004",
+  "hashrate_mhs": 6.93,
+  "total_hashes_scanned": 28695869184,
+  "shares_accepted": 0,
+  "shares_rejected": 5,
+  "last_job_id": "3e13",
+  "timestamp": 1790990643.096191
+}
