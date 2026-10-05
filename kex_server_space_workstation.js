@@ -19,9 +19,9 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const PORT = parseInt(process.env.PORT || '19100', 10);
-const NODE_NAME = 'ServerSpace-By-KeddehSystems-Unified';
-const DOMAIN = 'SERVER_SPACE_SUBSTRATE_UNIFIED';
+const PORT = parseInt(process.env.PORT || '19110', 10);
+const NODE_NAME = 'ServerSpace-DNS-Broadcast';
+const DOMAIN = 'SERVER_SPACE_DNS_BROADCAST';
 
 // ─── STATE MANAGEMENT ───────────────────────────────────────────────────────
 let requestCount = 0;
